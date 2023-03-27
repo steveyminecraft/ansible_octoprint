@@ -22,7 +22,7 @@ Please help us keep our issue list small by adding fixes: #{$ISSUE_NO} to the co
 Please ensure your changes are tested on as wide a variety of target devices as possible, including where possible:
 
 - Raspi Lite OS 32-bit and 64-bit
-- Ubuntu Bionic (18.04 lTS), Focal (20.04 LTS) & Jammy (22.04 LTS)
+- Ubuntu Bionic (18.04 LTS), Focal (20.04 LTS) & Jammy (22.04 LTS)
 - Ubuntu Kinetic (22.10)
 - Debian Bullseye (11)
 
