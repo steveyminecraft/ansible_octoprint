@@ -33,6 +33,7 @@ Current Status
 ![Last Commit](https://img.shields.io/github/last-commit/semuconsulting/ansible_octoprint)
 ![Contributors](https://img.shields.io/github/contributors/semuconsulting/ansible_octoprint.svg)
 ![Open Issues](https://img.shields.io/github/issues-raw/semuconsulting/ansible_octoprint)
+![Downloads](https://img.shields.io/ansible/role/d/42560)
 
 Requirements
 ------------
@@ -186,7 +187,9 @@ bullet point 6 under 'Notes on this release').
 License
 -------
 
-BSD
+BSD 2-Clause
+
+![License](https://img.shields.io/github/license/semuconsulting/ansible_octoprint)
 
 Author Information
 ------------------
