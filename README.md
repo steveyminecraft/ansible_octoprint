@@ -23,7 +23,7 @@ items already set up. These can be amended via the OctoPrint admin console.
 Based on instructions here:
 https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337
 
-Constructive feedback very welcome.
+Contributions welcome - please refer to the [Contributing Guidelines](https://github.com/semuconsulting/ansible_octoprint/blob/master/CONTRIBUTING.md).
 
 Current Status
 --------------
