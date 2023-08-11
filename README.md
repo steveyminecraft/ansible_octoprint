@@ -57,7 +57,7 @@ Role Variables
 - `octoprint_port`: 5000
 
 - `webcam_user`: mjpg_streamer
-- `webcam_dir`: "{{ install_dir}}/mjpg-streamer/mjpg-streamer-experimental"
+- `webcam_dir`: "/home/{{ webcam_user }}/mjpg-streamer/mjpg-streamer-experimental"
 - `webcam_port`: 8080
 - `webcam_type` : "usb" (options are 'usb', 'raspi' or 'custom')
 - `webcam_width`: 640

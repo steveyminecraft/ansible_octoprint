@@ -13,7 +13,7 @@ latest_octoprint_url: "https://get.octoprint.org/latest"
 webcam_repo: "https://github.com/jacksonliam/mjpg-streamer.git"
 
 install_dir: "/home/{{ octoprint_user }}"
-webcam_dir: "{{ install_dir}}/mjpg-streamer/mjpg-streamer-experimental"
+webcam_dir: "/home/{{ webcam_user }}/mjpg-streamer/mjpg-streamer-experimental"
 
 octoprint_user: pi
 octoprint_port: 5000
