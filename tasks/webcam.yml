@@ -45,7 +45,7 @@
     dest: "/home/{{ webcam_user }}/mjpg-streamer"
     version: master
   become_user: "{{ webcam_user }}"
-  become: yes
+  become: true
 
 - name: Build mjpg-streamer from source.
   make:
