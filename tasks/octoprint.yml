@@ -44,7 +44,7 @@
     owner: "{{ octoprint_user }}"
     group: "{{ octoprint_user }}"
 
-- name: Install OctoPrint via pip - the latest verstion.
+- name: Install OctoPrint via pip - the latest version.
   ansible.builtin.pip:
     name: "{{ latest_octoprint_url }}"
     state: present
