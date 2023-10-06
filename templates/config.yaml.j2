@@ -17,6 +17,8 @@ plugins:
 printerProfiles:
   default: _default
 server:
+  host: "{{ octoprint_nic }}"
+  port: "{{ octoprint_port }}"
   commands:
     serverRestartCommand: sudo systemctl restart octoprint
     systemRestartCommand: sudo shutdown -r now
