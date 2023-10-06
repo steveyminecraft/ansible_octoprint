@@ -114,6 +114,23 @@ To install OctoPrint with pinned version:
       - semuadmin.octoprint
 ```
 
+To install OctoPrint with pinned interface selected:
+
+```yaml
+
+    - name: Provision OctoPrint and mjpg_streamer on Raspberry Pi OS
+      hosts: your_octoprint_hostname
+      remote_user: pi
+      become: true
+
+      vars:
+        webcam_type: raspi
+        octoprint_nic: 192.168.1.56
+
+      roles:
+      - semuadmin.octoprint
+```
+
 To update OctoPrint, keeping existing configuration and access credentials:
 
 ```yaml
